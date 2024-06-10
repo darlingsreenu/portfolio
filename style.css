@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    color: red;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    padding: 40px;
+
+}
+.nav ul li{
+    padding: 0 30px;
+    font-size: 25px;
+    list-style: none;
+    margin-right: 40px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+  
+}
+.logo{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.photo{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+.home1 .ho{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: red;
+}
+img{
+    border: 1px solid red;
+    border-radius: 50%;
+    background:linear-gradient(red,blue,pink);
+}
+.names{
+    margin-left: 10%;
+    margin-top: 200px;
+}
+.somu{
+    font-size: 40px;
+    font-weight: 600px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.names.mani{
+    font-family: 50px;
+    color: blue;
+}
+.names .ramu{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+em{
+    color: red;
+}
+.but1{
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.but2{
+    background-color:red;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.about{
+    background-color:pink;
+}
+.about1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.about1 p{
+    font-size: 30px;
+    color:blue;
+}
+.photo2{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.photo2 img{
+    background: linear-gradient(red,yellow,green);
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+}
+.abo{
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+}
+.srinu{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.abo p{
+    margin-top: 20px;
+    font-size: 30px;
+ 
+}
+.but3{
+    background-color:red;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-left: 5px;
+}
+.skills{
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.skills .skil{
+    text-align: center;
+}
+.myski{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.str{
+    color: red;
+}
+.mys{
+    font-size: 20px;
+    color: rgb(0, 113, 128);
+}
+.main{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 0, 200);
+}
+.card{
+   border: 1px solid red;
+   width: 200px;
+   margin: 20px;
+   font-size: 20px;
+   background-color:green;
+   color: white;
+   padding: 20px 30px;
+}
+.card h3{
+    text-align: center;
+    color:yellow;
+}
+.card p{
+    margin-left: 10px;
+    padding: 10px;
+}
+.sk{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card1{
+    border: 1px solid red;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+    background-color:green;
+    color: white;
+    padding: 20px 30px;
+}
+.card1 h3{
+    text-align: center;
+    color:yellow;
+}
+.card1 p{
+    padding-top: 10px;
+}
+.pro{
+    text-align: center;
+    color: white;
+   
+}
+.pro h1{
+    padding-top: 20px;
+}
+.projects{
+    background-color:black;
+    margin-top: 10px;
+}
+.pro p{
+    font-size: 30px;
+    color: aquamarine;
+}
+.card3{
+    border: 1px solid red;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+    background-color:green;
+    color: white;
+    padding: 20px 20px;
+    display: inline-block;
+    margin: 70px;
+}
+.contact{
+    background-color: blue;
+    margin-top: 10px;
+}
+.con{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.con p{
+    font-size: 30px;
+  
+}
+.conta{
+    color: red;
+}
+.inp{
+    text-align: center;
+    margin-top: 40px;
+
+}
+.text{
+  width: 40%;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+}
+.inpu input{
+    border-radius: 10px;
+}
+.butt{
+    padding: 20px 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.butto{
+    text-align: center;
+   
+}
+.footer{
+    background-color:burlywood;
+    margin-top: 10px;
+}
+.links{
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+
+}
+.links h1{
+    color: red;
+}
+.links p{
+    color: blueviolet;
+}
+.footernav{
+    text-align: center;
+    display: flex;
+   justify-content: center;
+   font-size: 30px;
+   padding: 30px;
+}
+.footernav li a{
+    text-decoration: none;
+}
+.footernav li{
+    list-style: none;
+    padding: 20px;
+}
+.footernav li a:hover{
+    text-decoration: underline;
+}
+.footerbottom{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+span{
+    color: rgb(255, 0, 200);
+}
+.icons{
+    font-size: 50px;
+}
+
